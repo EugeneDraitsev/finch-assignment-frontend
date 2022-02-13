@@ -1,5 +1,26 @@
 # Frontend Assignment
 
+## Solution
+
+For this assignment I've used some additional dependencies to speed up development:
+
+```json
+"@emotion/react": "^11.7.1",
+"@emotion/styled": "^11.6.0",
+"@mui/material": "^5.4.1",
+"zustand": "^3.7.0"
+"drei": "^0.0.40",
+"react-draggable": "^4.4.4",
+```
+
+Final gziped build size us 380.79 kB which is pretty big, but good enough since we use threejs and react-three-fiber.
+I've used @emotion + mui v5 as simple and fast styling approach, I also chose zustand for state management, since it's part of react-three-fiber ecosystem and very simple to use tool.
+Other from that I've used drei for html-in-3D rendering and react-draggable for draggable controls.
+
+## Demo
+
+Demo is available here: [http://finch-assignment.netlify.app/](http://finch-assignment.netlify.app/).
+
 ## Overview
 
 An architect wants to change some of the attributes of a building, e.g. height, width and roof angle. In association with this they want to see the meta data of the buildings, e.g. name, height and floor area.

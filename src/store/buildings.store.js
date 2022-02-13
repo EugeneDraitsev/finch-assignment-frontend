@@ -7,7 +7,7 @@ const defaultConfig = {
   roofAngle: 30,
 }
 
-// TODO: move to utils
+// TODO: move fetch logic to utils
 const URL = 'https://cchvf3mkzi.execute-api.eu-west-1.amazonaws.com/dev/build'
 
 export const useBuildings = create(
